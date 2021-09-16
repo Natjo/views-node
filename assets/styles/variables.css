@@ -1,0 +1,73 @@
+:root{
+    --font-1: 'ConduitITCPro', sans-serif;
+    --font-2: 'aeonik', sans-serif;
+
+    --ctr-width: 1180px;
+    --ctr-margin: 20px;
+
+    --gap: 20px;
+
+    --header-height: 70px;
+    --color-text: #1D1D1B;
+    --gray: #ECECEC;
+
+    --color-1: #7163A9;
+    --color-2: #3F3B8F;
+    --color-3: #0089AB;
+    --color-4: #77C7C8;
+    --color-5: #F18E7E;
+    --color-6: #B770AC;
+    --color-7: #5F71B5;
+    --color-8: #F3F2CE;
+    --color-9: #60AAA7;
+    --color-10: #FFDC93;
+
+    --color-tpl-1: var(--color-4);
+    --color-tpl-2: var(--color-3);
+    --color-tpl-3: var(--color-1);
+   
+
+    --font-size-sm: .875rem;
+    --font-size: .875rem;
+    --font-size-md: 1.125rem;
+    --font-size-xmd: 1rem;
+    --font-size-lg: 1.5rem;
+    --font-size-xlg: 2.25rem;
+    --font-size-xxlg: 2.25rem;
+
+    --margin-sm: 30px;
+    --margin: 60px;
+    --margin-md: 40px;
+    --margin-lg: 40px;
+    --margin-xl: 60px;
+}
+
+
+@media (min-width: 992px) {
+    :root{
+        --ctr-margin: 60px;
+        --header-height: 90px;
+        --gap: 40px;
+
+        --font-size-sm: .875rem;
+        --font-size: 1.125rem;
+        --font-size-md: 1.375rem;
+        --font-size-xmd: 1.5rem;
+        --font-size-lg: 2.125rem;
+        --font-size-xlg: 4rem;
+        --font-size-xxlg: 4.625rem;
+
+        --margin-sm: 40px; 
+        --margin: 50px;
+        --margin-md: 60px;
+        --margin-lg: 84px;
+        --margin-xl: 200px;
+    }
+}
+
+/* template */
+.tpl-prise-de-parole{
+    --color-tpl-1: var(--color-5);
+    --color-tpl-2:  var(--color-6);
+    --color-tpl-3:  var(--color-2);
+}

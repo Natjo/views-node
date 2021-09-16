@@ -1,0 +1,32 @@
+[
+    {
+        "post_type_id": 1,
+        "id": 1,
+        "name": "Home",
+        "slug": "accueil",
+        "date": "2021-09-04",
+        "strates": []
+    },
+    {
+        "post_type_id": 2,
+        "id": 1,
+        "name": "Article1",
+        "slug": "article1",
+        "date": "2021-09-04",
+        "strates": [
+            {
+                "id": 1,
+                "fields": [
+                    {
+                        "title": "Hello World"
+                    }
+                ]
+            }
+        ],
+        "taxonomies": [
+            {
+                "type": ["gaz"]
+            }
+        ]
+    }
+]

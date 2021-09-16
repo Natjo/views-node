@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "page",
+        "taxonomies": [
+            {
+                "id": 1,
+                "name": "Type",
+                "list": ["gaz", "oil"]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "article",
+        "taxonomies": [
+            {
+                "id": 1,
+                "name": "Type",
+                "list": ["gaz", "oil"]
+            }
+        ]
+    }
+]

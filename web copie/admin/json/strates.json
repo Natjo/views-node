@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Intro",
+        "slug": "intro",
+        "fields": [
+            {
+                "type": "text",
+                "name": "Titre",
+                "slug": "title"
+            }
+        ]
+    }
+]
